@@ -1,0 +1,190 @@
+*{
+    font-family: Segoe UI, Regular;
+ 
+}
+    
+.cabecalho{
+    width: 100vw;
+    height: 120px;
+    background-color: rgba(24, 14, 12, 1);
+    border: 1px, solid, rgba(112, 112, 112, 1);
+    position: relative;
+}
+    
+.cabecalho__titulo{
+    display: flex;
+    flex: auto
+    font-size: 26px;
+    color:rgb(255, 255, 255);
+    text-align: left;
+}
+
+.cabecalho__navegacao1{
+    font-size: 20px;
+    color:rgba(255, 255, 255, 1);
+    text-decoration: none;
+   
+}
+
+.imagem{
+    width: 100vw;
+    height: 450px;
+}
+
+.imagem__principal{
+    height: 500px;
+    width: 100vw;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    padding-left: 0px;
+    background-color: #ffff;
+    flex-wrap: wrap; 
+}
+
+.card1__titulo,
+.card2__titulo,
+.card3__titulo,
+.card4__titulo,
+.Praesent,
+.Maecenas,
+.Aenean{
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 16px;
+    width: 300px;
+    height: auto;
+}
+
+
+.container_1,
+.articulos{
+    display: flex;
+    background-color: #37201A;
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+    padding-left: 0px;
+}
+
+.Praesent{
+    display: flexbox;
+    color: #7A503E;
+    
+}
+
+.Praesent__titulo1,
+.Maecenas__titulo1,
+.Aenean__titulo1{
+    color:#C27159;
+    font-size: 26px;
+    text-indent: 40px;
+}
+
+.Praesent1,
+.Praesent2,
+.Praesent3{
+    display: flex;
+    margin: 40px;
+    text-align: justify;
+}
+
+.Praesent1__imagem,
+.Praesent2__imagem,
+.Praesent3__imagem{
+    padding-right: 20px;
+    height: 130px;
+    width: 200px;
+}
+
+.Maecenas{
+    display: flexbox;
+    color: #7A503E;
+   
+}
+
+.Maecenas1,
+.Maecenas2,
+.Maecenas3{
+    display: flex;
+    margin: 40px;
+    text-align: justify;
+}
+.Maecenas1__imagem,
+.Maecenas2__imagem,
+.Maecenas3__imagem{
+    padding-right: 20px;
+    height: 130px;
+    width: 200px;
+}
+
+.Aenean{
+    display: flexbox;
+    color: #7A503E;
+    height: 200px;
+}
+
+.Aenean__titulo1{
+    color:#C27159;
+    font-size: 26px;
+}
+
+.Aenean1__descricao{
+    width: 500px;
+    text-align: justify;
+}
+   
+.informacao{
+    background-color: #251611;
+    display: flex;
+    width: 100vw;
+}
+
+.informacao__Maecenas__titulo,
+.informacao__link__titulo{
+    color:#C27159;
+    font-size: 26px;
+}
+
+.informacao__Maecenas__descricao{
+    color:#7A503E;
+    width: 50vw;
+}
+
+.lista{
+    list-style: none;   
+    line-height: 300%;
+    text-indent: -40px;
+}
+
+a{
+    color:#7A503E;
+}
+.rodape{
+    background-color: #180E0C;
+    width: 100vw;
+    height: 100px;
+    padding-top: 0;
+    margin-top: -15px;
+}
+
+.rodape_texto{
+    color:#7A503E;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width:875px){
+    .container_1{
+    
+
+    }
+}

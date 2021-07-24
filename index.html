@@ -5,58 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcação do blog</title>
+    <link rel="stylesheet" href="blog.css">
 </head>
 <body>
-    <header>
-        <h1>Venezuela</h1>
-        <h2 id="Home1"></h2>
-        <h2 id="Home2"></h2>
-        <h2 id="Home3"></h2>
-            
-        <nav>
-            <a href="#Home1"> Home1</a>
-            <a href="#Home2"> Home2</a>
-            <a href="#Home3"> Home3</a>
+    <header class= "cabecalho">
+        <h1 class= "cabecalho__titulo">Autonomy</h1>
+        <h2 id="Homepage"></h2>
+        <h2 id="Left Sidebar"></h2>
+        <h2 id="Right Sidebar"></h2>
+        <h2 id="No Sidebar"></h2>   
+        <nav class="cabecalho__navegacao"></nav>
+            <a href="#Home page" class="cabecalho__navegacao1"><span>Homepage</span></a>
+            <a href="#Left Sidebar" class="cabecalho__navegacao1"><span>Left Sidebar</span></a>
+            <a href="#Right Sidebar" class="cabecalho__navegacao1"><span>Right Sidebar</span></a>
+            <a href="#No Sidebar" class="cabecalho__navegacao1"><span>No Sidebar</span></a>
         </nav>
-        <img src="vzla map.jpg" whidth="900" heigth="900" alt="foto do mapa da Venezuela">
     </header>
+    
+    <div class="imagem">
+        <img src="img flores roxo.jpg" alt="foto do flores roxas" class="imagem__principal">
+    </div>
 
-    <main>
-        <h2 id="Los Roques"> Los Roques</h2>
-        <img src="img los roques.jpg" alt="foto da praia Los Roques na Venezuela">
-        <p>El Parque Nacional Los Roques é um arquipélago da Venezuela, localizado a uns 160 km ao norte de la capital, Caracas, en el mar no Caribe.</p>
-        
-        <h2 id="Pico Bolívar"> Pico Bolívar</h2>
-        <img src="img pico bolivar.jpg" alt="foto do Pico Bolívar na Venezuela">
-        <p>A localização geográfica do Pico Bolivar é a mais alta da Venezuela, com uma altitude oficial de 4978 msn. e faz parte de um conjunto de picos localizados na Sierra Nevada do Parque Nacional na cordilheira de Mérida (estado de Mérida)."</p>
-     </main>
+    <main class="container">
+        <div class="card1">
+            <img src="img arvores.jpg" width= 300 height="200" alt="foto de arvores" class="card1__imagem">
+            <h2 class="card1__titulo">Etiam posuere</h2>
+            <p class="card1__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+        </div>
 
-    <section>
-        <article>
-            <h2>Varias seções com conteúdo e imagens</h2>
-            <h3 id="Salto Angel"> Salto Angel</h3>
-            <img src="img Salto Angel.jpg" alt="Foto do Salto Angel ma Venezuela">
-            <p>É a cachoeira mais alta do mundo, com 979 m de altura (807 m de queda ininterrupta), originando-se do Auyantepuy. Está localizado no Parque Nacional Canaima, Bolívar, Venezuela.</p>
-        </article>
+        <div class="card2">
+            <img src="img tren.jpeg" width= 300 height="200" alt="foto do tren" class="card2__imagem">
+            <h2 class="card2__titulo">Fusce ultrices</h2>
+            <p class="card2__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+        </div>
 
-        <div>
-            <h2>Blocos com conteúdo, imagens e links</h2>
-            <h3 id="Isla de Mrgarita">Isla de Margarita</h3>
-            <img src="img margrita.jpg" alt="Isla de Margarita">
-            <p>Isla de Margarita faz parte da Venezuela e está localizada no Mar do Caribe, cerca de 40 km ao norte do continente.</p>
+        <div class="card3">
+            <img src="img folha seca.jpeg" width= 300 height="200" alt="foto folha seca" class="card3__imagem">
+            <h2 class="card3__titulo">Donec dictum</h2>
+            <p class="card3__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+        </div>
 
+        <div class="card4">
+            <img src="img rochas.jpeg" width= 300 height="200" alt="foto folha seca" class="card4__imagem">
+            <h2 class="card4__titulo">Maecenas luctus</h2>
+            <p class="card4__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+        </div>
+    </main>
+
+    <section class="container_1 articulos" >
+        <div class="Praesent">
+            <h2 class="Praesent__titulo1">Praesent eleifend</h2>
+            <aside class="Praesent1">
+                <img src="img paisagem seco.jpeg" alt="paisagem seco" class="Praesent1__imagem">
+                <p class="Praesent1__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            </aside>
+
+            <aside class="Praesent2">
+                <img src="img arvore seca.jpeg" alt="arvore seca" class="Praesent2__imagem">
+                <p class="Praesent2__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            </aside>
+
+            <aside class="Praesent3">
+                <img src="img folha seca2.jpeg" alt="folha seca" class="Praesent3__imagem">
+                <p class="Praesent3__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            </aside>
+        </div>
+
+        <div class="Maecenas">
+            <h2 class="Maecenas__titulo1">Maecenas lectus</h2>
+            <aside class="Maecenas1">
+                <img src="img lago.jpeg" width= 200 height="130" alt="lagoa" class="Maecenas1__imagem">
+                <p class="Maecenas1__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            </aside>
+    
+            <aside class="Maecenas2">
+                <img src="img palo seco.jpeg" width= 200 height="130" alt="arvore seca" class="Maecenas2__imagem">
+                 <p class="Maecenas2__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            </aside>
+    
+            <aside class="Maecenas3">
+                <img src="img folha verde.jpeg" width= 200 height="130" alt="folha verde" class="Maecenas3__imagem">
+                <p class="Maecenas3__descricao">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            </aside>
+        </div>
+
+        <div class="Aenean">
+            <h2 class="Aenean__titulo1">Aenean elementum facilisis ligula</h2>
+            <aside class="Aenean1">
+                <img src="img folha pelusia.jpg" width= "500" height="230" alt="lagoa" class="Aenean1__imagem">
+                <p class="Aenean1__descricao"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+            </aside>
+        </div>
+    </section>
+   
+     <section class="container informacao">
+        <div class="informacao__Maecenas">
+            <h2 class="informacao__Maecenas__titulo">Marcenas luctus lectus at sapien</h2>
+            <p class="informacao__Maecenas__descricao">
+                This Autonomy, a responsive HTML5 site template freebie by <a href="#">TEMPLATED</a> Release for free under the <a href="#">Creative</a> <a href="#">Commons Attribution license</a>, so use it for whatever (personal or commecial) - just give us credit! Checkout more of our stuff at  <a href="#">our site</a> or follow us on  <a href="#">Twitter</a>.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.
+            </p>
+        </div>
+
+        <div class="informacao__link">
+            <h2 class="informacao__link__titulo">Lectus at sapien</h2>
             <ul>
-              <li><a href="#Isla de Margarita"> Isla de Margarita</a></li> 
-              <li><a href="#Salto Angel"> Salto Angel</a></li> 
-              <li><a href="#Pico Bolívar"> Pico Bolívar</a></li> 
-              <li><a href="#Los Roques"> Los Roques</a></li> 
+              <li class="lista"><a href="#"> Ased diam nonumy eirmo.</a></li> 
+              <li class="lista"><a href="#"> At vero eos et accusam et justo.</a></li> 
+              <li class="lista"><a href="#"> Stet clita kasd gubergren, no sea takimata sanctu.</a></li> 
+              <li class="lista"><a href="#"> Pentellesque quis elit no gravida blandit.</a></li> 
+              <li class="lista"><a href="#"> Ased diam nonumy eirmo.</a></li> 
+              <li class="lista"><a href="#"> At vero eos et accusam et justo.</a></li> 
+              <li class="lista"><a href="#"> Stet clita kasd gubergren, no sea takimata sanctu.</a></li> 
             </ul>
          </div>
     </section>
  
-    <footer>
-        <p> 
-            <h4>Feito por Vanessa Berdayes</h4>
+    <footer class="rodape">
+        <p class="rodape_texto">
+            Design: TEMPLATED Images Unsplash (CCo)
         </p>
     </footer>
 </body>
