@@ -1,11 +1,16 @@
+html, head, body{
+    padding: 0;
+    margin: 0;
+}
+
 *{
     font-family: Segoe UI, Regular;
- 
 }
     
 .cabecalho{
     width: 100vw;
     height: auto;
+    align-items: center;
     display: flex;
     flex-wrap: wrap; 
     background-color: rgba(24, 14, 12, 1);
@@ -24,24 +29,22 @@
 .cabecalho__navegacao1{
     display: flex;
     flex-wrap: wrap; 
-    flex: auto;
+    margin:10px;
     height: auto;
     justify-content: space-between;
     font-size: 20px;
     color:rgba(255, 255, 255, 1);
     text-decoration: none;
-    padding-top: 23px;
+  
     text-align: end;
    
 }
 
 .imagem{
-    width: 100vw;
-    height: 450px;
+    max-width: 100%;
 }
 
 .imagem__principal{
-    height: 500px;
     width: 100vw;
 }
 
@@ -51,7 +54,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 150px;
-    padding-left: 0px;
+    padding-left: 20px;
     background-color: #ffff;
     flex-wrap: wrap; 
 }
