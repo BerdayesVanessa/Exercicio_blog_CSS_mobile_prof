@@ -176,6 +176,7 @@ width: 30vh;
 }
 
 .Aenean1__imagem{
+    max-width: 100%;
     height: 24vh;
     width: 34vw;
     flex-wrap: wrap; 
@@ -237,9 +238,28 @@ a{
     padding-top: 25px;
 }
 
-@media (max-width:875px){
-    .container_1{
-    
+@media (max-width:710px){
+  .cabecalho__navegacao1{
+    display: none; 
+  }
 
-    }
+    #hamburger {
+    margin-right: 20px;
+    margin-top: 5px;
+    border-top: 2px solid;
+    color: white;
+    width: 20px;
+  }
+
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: white;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
 }
